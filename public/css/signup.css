@@ -1,0 +1,19 @@
+#our-back-button{
+    background-color: #bfbfbf;
+    font-weight : 600;
+}
+
+#our-next-button{
+    font-weight : 600;
+}
+
+input[type="file"] {
+    padding-left : 0px;
+    border: none;
+}
+
+.small-message-related-to-text p{
+    font-size : 13px;
+    font-weight : 600;
+    color: red;
+}

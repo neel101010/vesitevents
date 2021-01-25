@@ -1,0 +1,63 @@
+.Add-guest-session .guest-img-div img{
+    width : 100px;
+}
+
+.Add-guest-session  p{
+    margin : 0px;
+    font-weight : 600;
+    font-size :16px;
+}
+
+.Add-guest-session .guest-img-div button{
+    background : white !important;
+    border :none !important;
+    padding : 0px;
+}
+
+.our-guest-list .each-guest .name-and-img-session img{
+    width : 50px;
+}
+
+.our-guest-list .each-guest .name-and-img-session p{
+    margin : 0;
+    font-weight : 600;
+    color : blue;
+    font-size :16px;
+}
+
+.our-guest-list .each-guest .add-btn-session button{
+    font-weight : 600 !important;
+} 
+
+
+.our-guest-list{
+    padding : 5px 10px;
+    margin-bottom  : 5px;
+}
+
+.our-guest-list .model-each-guest-link{
+    padding : 5px 10px;
+}
+
+
+.our-guest-list .model-each-guest-link:hover{
+    background-color: #eeeeeed1;
+}
+
+.about-sponsers-message .alert-text{
+    font-weight: 600;
+    font-size: 14px;
+    color: #1818e3;
+}
+
+.about-sponsers-message .alert-icon{
+    margin: 0;
+    padding-top: 10px;
+    margin-right: 9px;
+}
+
+.about-sponsers-message .alert-icon i{
+    color: red;
+    font-size: 18px;
+}
+
