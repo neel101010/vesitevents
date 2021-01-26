@@ -17,8 +17,7 @@
         "laravel/framework": "^8.0",
         "laravel/socialite": "^5.0",
         "laravel/tinker": "^2.0",
-        "nexmo/laravel": "dev-master as 1.0",
-        "nexmo/client": "dev-master as 1.0"
+        "twilio/sdk": "^6.16"
     },
     "require-dev": {
         "facade/ignition": "^2.3.6",
