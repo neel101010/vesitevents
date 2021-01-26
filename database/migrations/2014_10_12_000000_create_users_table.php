@@ -24,7 +24,7 @@ class CreateUsersTable extends Migration
             $table->string("class")->nullable();
             $table->integer("roll_no")->nullable();
             $table->string('email')->unique();
-            $table->timestamp('email_verified_at');
+            $table->timestamp('email_verified_at')->nullable();
             $table->string('password');
             $table->integer('isVerified')->default(0);
             $table->rememberToken();
