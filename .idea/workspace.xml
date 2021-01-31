@@ -25,8 +25,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="08a84a7a-f010-49eb-a3ed-a424c1d6442a" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/storage/framework/views/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Providers/AppServiceProvider.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Providers/AppServiceProvider.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/Society/society.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/Society/society.blade.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -176,17 +176,17 @@
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\xampp\htdocs\vesitevents\public\asserts" />
+      <recent name="C:\xampp\htdocs\vesitevents\public" />
+      <recent name="C:\xampp\htdocs\vesitevents" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\xampp\htdocs\vesitevents\public\storage" />
       <recent name="C:\xampp\htdocs\vesitevents\public" />
       <recent name="C:\xampp\htdocs\vesitevents\public\asserts_tmp" />
       <recent name="C:\xampp\htdocs\vesitevents\public\asserts" />
       <recent name="C:\xampp\htdocs\vesitevents\public\normal" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\xampp\htdocs\vesitevents\public\asserts" />
-      <recent name="C:\xampp\htdocs\vesitevents\public" />
-      <recent name="C:\xampp\htdocs\vesitevents" />
     </key>
   </component>
   <component name="RunManager">
@@ -231,6 +231,14 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="394" y="143" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1280.680@0.0.1280.680" timestamp="1612110275804" />
+    <state x="475" y="43" key="RollbackChangesDialog" timestamp="1612112987246">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="475" y="43" key="RollbackChangesDialog/0.0.1280.680@0.0.1280.680" timestamp="1612112987246" />
+    <state x="297" y="151" key="run.anything.popup" timestamp="1612112974162">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="297" y="151" key="run.anything.popup/0.0.1280.680@0.0.1280.680" timestamp="1612112974162" />
     <state x="433" y="200" key="scopes" timestamp="1612110507706">
       <screen x="0" y="0" width="1280" height="680" />
     </state>

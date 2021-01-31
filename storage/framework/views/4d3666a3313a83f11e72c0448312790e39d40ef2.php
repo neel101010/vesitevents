@@ -1,15 +1,15 @@
-@include('/partials/header')
-@include('/partials/navbar')
+<?php echo $__env->make('/partials/header', \Illuminate\Support\Arr::except(get_defined_vars(), ['__data', '__path']))->render(); ?>
+<?php echo $__env->make('/partials/navbar', \Illuminate\Support\Arr::except(get_defined_vars(), ['__data', '__path']))->render(); ?>
 
         <div class="each-society-information d-flex justify-content-center">
             <div class="society-details-society-page d-flex flex-column">
                 <div class="society-img-session">
-                    <img src="{{url("/asserts/$society->image")}}" style="width:130px; height:130px; object-fit:cover;">
+                    <img src="<?php echo e(url("/asserts/$society->image")); ?>" style="width:130px; height:130px; object-fit:cover;">
                 </div>
-                <h4>{{$society->name}} Society</h4>
-                <p> {{$society->description}} </p>
+                <h4><?php echo e($society->name); ?> Society</h4>
+                <p> <?php echo e($society->description); ?> </p>
                 <div class="button-session">
-                    <button class="btn btn-sm btn-light"><i class="fas fa-users"></i> {{$society->total_members}} Employees </button>
+                    <button class="btn btn-sm btn-light"><i class="fas fa-users"></i> <?php echo e($society->total_members); ?> Employees </button>
                 </div>
             </div>
         </div>
@@ -42,32 +42,32 @@
                                 <hr/>
                                 <div class="all-event-cards">
                                     <div class="row">
-                                        @if(count($ongoing_events) == 0 )
+                                        <?php if(count($ongoing_events) == 0 ): ?>
                                             <div class="nothing-is-their d-flex justify-content-center align-items-center">
                                             <div>
                                                     <p class="no-event-text">No Ongoing Events</p>
                                                     <p class="no-event-box-icon d-flex justify-content-center"><i class="fas fa-box-open"></i></p>
                                                 </div>
                                             </div>
-                                        @else
-                                            @foreach($ongoing_events as $ongoing_event)
+                                        <?php else: ?>
+                                            <?php $__currentLoopData = $ongoing_events; $__env->addLoop($__currentLoopData); foreach($__currentLoopData as $ongoing_event): $__env->incrementLoopIndices(); $loop = $__env->getLastLoop(); ?>
                                             <div class="col-3">
                                                 <div class="each-event-card d-flex flex-column">
                                                     <div class="today-event-img-session">
-                                                        <img width="150px" src="{{url("/event_images/$ongoing_event->profile_image")}}" alt="">
+                                                        <img width="150px" src="<?php echo e(url("/event_images/$ongoing_event->profile_image")); ?>" alt="">
                                                     </div>
                                                     <div class="event-text-details">
-                                                        <p class="event-title">{{$ongoing_event->name}}</p>
+                                                        <p class="event-title"><?php echo e($ongoing_event->name); ?></p>
                                                         <p class="date-and-time">
-                                                            <span><i class="far fa-calendar-alt"></i>{{$ongoing_event->date}}</span>
-                                                            <span><i class="far fa-clock"></i> {{$ongoing_event->time}}</span>
+                                                            <span><i class="far fa-calendar-alt"></i><?php echo e($ongoing_event->date); ?></span>
+                                                            <span><i class="far fa-clock"></i> <?php echo e($ongoing_event->time); ?></span>
                                                         </p>
-                                                        <a id="each-event-register-button"  class="btn btn-md btn-success" href="{{url('event/'.$ongoing_event->id)}}">View Details</a>
+                                                        <a id="each-event-register-button"  class="btn btn-md btn-success" href="<?php echo e(url('event/'.$ongoing_event->id)); ?>">View Details</a>
                                                     </div>
                                                 </div>
                                             </div>
-                                            @endforeach
-                                        @endif
+                                            <?php endforeach; $__env->popLoop(); $loop = $__env->getLastLoop(); ?>
+                                        <?php endif; ?>
                                     </div>
                                 </div>
                             </div>
@@ -78,32 +78,32 @@
                                 <hr/>
                                 <div class="all-event-cards">
                                     <div class="row">
-                                        @if(count($upcoming_events) == 0 )
+                                        <?php if(count($upcoming_events) == 0 ): ?>
                                             <div class="nothing-is-their d-flex justify-content-center align-items-center">
                                             <div>
                                                     <p class="no-event-text">No Upcoming Events</p>
                                                     <p class="no-event-box-icon d-flex justify-content-center"><i class="fas fa-box-open"></i></p>
                                                 </div>
                                             </div>
-                                        @else
-                                            @foreach($upcoming_events as $upcoming_event)
+                                        <?php else: ?>
+                                            <?php $__currentLoopData = $upcoming_events; $__env->addLoop($__currentLoopData); foreach($__currentLoopData as $upcoming_event): $__env->incrementLoopIndices(); $loop = $__env->getLastLoop(); ?>
                                                 <div class="col-3">
                                                     <div class="each-event-card d-flex flex-column">
                                                         <div class="today-event-img-session">
-                                                            <img  width="150px" src="{{url("/event_images/$upcoming_event->profile_image")}}" alt="">
+                                                            <img  width="150px" src="<?php echo e(url("/event_images/$upcoming_event->profile_image")); ?>" alt="">
                                                         </div>
                                                         <div class="event-text-details">
-                                                            <p class="event-title">{{$upcoming_event->name}}</p>
+                                                            <p class="event-title"><?php echo e($upcoming_event->name); ?></p>
                                                             <p class="date-and-time">
-                                                                <span><i class="far fa-calendar-alt"></i> {{$upcoming_event->date}}</span>
-                                                                <span><i class="far fa-clock"></i> {{$upcoming_event->time}}</span>
+                                                                <span><i class="far fa-calendar-alt"></i> <?php echo e($upcoming_event->date); ?></span>
+                                                                <span><i class="far fa-clock"></i> <?php echo e($upcoming_event->time); ?></span>
                                                             </p>
-                                                            <a id="each-event-register-button"  class="btn btn-md btn-success" href="{{url('event/'.$upcoming_event->id)}}">View Details</a>
+                                                            <a id="each-event-register-button"  class="btn btn-md btn-success" href="<?php echo e(url('event/'.$upcoming_event->id)); ?>">View Details</a>
                                                         </div>
                                                     </div>
                                                 </div>
-                                            @endforeach
-                                        @endif
+                                            <?php endforeach; $__env->popLoop(); $loop = $__env->getLastLoop(); ?>
+                                        <?php endif; ?>
                                     </div>
                                 </div>
                             </div>
@@ -114,34 +114,34 @@
                                 <hr/>
                                 <div class="all-event-cards">
                                     <div class="row">
-                                            @if(count($past_events) == 0 )
+                                            <?php if(count($past_events) == 0 ): ?>
                                                 <div class="nothing-is-their d-flex justify-content-center align-items-center">
                                                 <div>
                                                         <p class="no-event-text">No Past Events</p>
                                                         <p class="no-event-box-icon d-flex justify-content-center"><i class="fas fa-box-open"></i></p>
                                                     </div>
                                                 </div>
-                                            @else
-                                                @foreach($past_events as $past_event)
+                                            <?php else: ?>
+                                                <?php $__currentLoopData = $past_events; $__env->addLoop($__currentLoopData); foreach($__currentLoopData as $past_event): $__env->incrementLoopIndices(); $loop = $__env->getLastLoop(); ?>
                                                     <div class="col-3">
                                                         <div class="each-event-card d-flex flex-column">
                                                                     <div class="today-event-img-session">
-                                                                        <img width="150px" src="{{url("/event_images/$past_event->profile_image")}}" alt="">
+                                                                        <img width="150px" src="<?php echo e(url("/event_images/$past_event->profile_image")); ?>" alt="">
                                                                     </div>
                                                                     <div class="event-text-details">
-                                                                        <p class="event-title">{{$past_event->name}}</p>
+                                                                        <p class="event-title"><?php echo e($past_event->name); ?></p>
                                                                         <p class="date-and-time">
-                                                                            <span><i class="far fa-calendar-alt"></i> {{$past_event->date}}</span>
-                                                                            <span><i class="far fa-clock"></i> {{$past_event->time}}</span>
+                                                                            <span><i class="far fa-calendar-alt"></i> <?php echo e($past_event->date); ?></span>
+                                                                            <span><i class="far fa-clock"></i> <?php echo e($past_event->time); ?></span>
                                                                         </p>
-                                                                        <a id="each-event-register-button"  class="btn btn-md btn-success" href="{{url('event/'.$past_event->id)}}">View Details</a>
+                                                                        <a id="each-event-register-button"  class="btn btn-md btn-success" href="<?php echo e(url('event/'.$past_event->id)); ?>">View Details</a>
                                                                     </div>
                                                                 </div>
 
 
                                                     </div>
-                                                @endforeach
-                                            @endif
+                                                <?php endforeach; $__env->popLoop(); $loop = $__env->getLastLoop(); ?>
+                                            <?php endif; ?>
                                     </div>
                                 </div>
                             </div>
@@ -155,78 +155,79 @@
                     <center><h2 class="all-member-header">All Members Details</h2><center>
                     <div class="council-heads container">
                         <h5>Council Heads <hr></h5>
-                        @php
+                        <?php
                                     $head = $society_members->where('role','council-head')->first();
                                 if($head){
                                     $member = \App\Models\User::where('email',$head->email)->first();
                                  }
-                        @endphp
-                        @if(!$head)
+                        ?>
+                        <?php if(!$head): ?>
                             <div class="nothing-is-their d-flex justify-content-center align-items-center">
                                 <div>
                                     <p class="no-event-text">No Council Head</p>
                                     <p class="no-event-box-icon d-flex justify-content-center"><i class="fas fa-box-open"></i></p>
                                 </div>
                             </div>
-                        @else
+                        <?php else: ?>
                             <div class="card" style="width: 18rem;">
-                                @if($head)
-                                    <img src="{{url("/profile_images/$member->profile_image")}}" class="card-img-top" alt="..." style="width : 100%; height : 250px; object-fit:cover">
-                                @endif
+                                <?php if($head): ?>
+                                    <img src="<?php echo e(url("/profile_images/$member->profile_image")); ?>" class="card-img-top" alt="..." style="width : 100%; height : 250px; object-fit:cover">
+                                <?php endif; ?>
                                     <div class="card-body">
-                                    @if($head)
-                                        <p class="card-text" style="font-weight : 600; color:blue; font-size : 20px">{{  $head->first_name." ".$head->last_name }}</p>
-                                        <p class="card-text">{{$head->email}}</p>
-                                    @endif
+                                    <?php if($head): ?>
+                                        <p class="card-text" style="font-weight : 600; color:blue; font-size : 20px"><?php echo e($head->first_name." ".$head->last_name); ?></p>
+                                        <p class="card-text"><?php echo e($head->email); ?></p>
+                                    <?php endif; ?>
                                 </div>
                             </div>
-                        @endif
+                        <?php endif; ?>
                     </div>
                     <div class="council-members container">
                         <center><h5 id="all-memeber-session">All Council Members <hr></h5><center>
                         <div class="row">
-                            @php
+                            <?php
                                 $council_members_arr = [];
-                            @endphp
-                            @foreach($society_members as $society_member)
-                                    @if($society_member->role == 'council-head')
-                                        @continue
-                                    @else
-                                        @php
+                            ?>
+                            <?php $__currentLoopData = $society_members; $__env->addLoop($__currentLoopData); foreach($__currentLoopData as $society_member): $__env->incrementLoopIndices(); $loop = $__env->getLastLoop(); ?>
+                                    <?php if($society_member->role == 'council-head'): ?>
+                                        <?php continue; ?>
+                                    <?php else: ?>
+                                        <?php
                                            array_push($council_members_arr , $society_member)
-                                        @endphp
-                                    @endif
-                            @endforeach
-                            @if(count($council_members_arr) == 0)
+                                        ?>
+                                    <?php endif; ?>
+                            <?php endforeach; $__env->popLoop(); $loop = $__env->getLastLoop(); ?>
+                            <?php if(count($council_members_arr) == 0): ?>
                                 <div class="nothing-is-their d-flex justify-content-center align-items-center">
                                     <div>
                                         <p class="no-event-text">No Council Members</p>
                                         <p class="no-event-box-icon d-flex justify-content-center"><i class="fas fa-box-open"></i></p>
                                     </div>
                                 </div>
-                            @else
-                                @foreach($society_members as $society_member)
-                                    @if($society_member->role == 'council-head')
-                                        @continue
-                                    @endif
-                                    @php
+                            <?php else: ?>
+                                <?php $__currentLoopData = $society_members; $__env->addLoop($__currentLoopData); foreach($__currentLoopData as $society_member): $__env->incrementLoopIndices(); $loop = $__env->getLastLoop(); ?>
+                                    <?php if($society_member->role == 'council-head'): ?>
+                                        <?php continue; ?>
+                                    <?php endif; ?>
+                                    <?php
                                        $member = \App\Models\User::where('email',$society_member->email)->first()
-                                    @endphp
+                                    ?>
                                     <div class="col-4">
                                         <div class="card" style="width: 18rem;">
-                                            <img src="{{url("/profile_images/$member->profile_image")}}" class="card-img-top" alt="..." style="width : 100%; height : 250px; object-fit:cover">
+                                            <img src="<?php echo e(url("/profile_images/$member->profile_image")); ?>" class="card-img-top" alt="..." style="width : 100%; height : 250px; object-fit:cover">
                                             <div class="card-body">
-                                            <p class="card-text" style="font-weight : 600; color:blue; font-size : 20px">{{$member->first_name." ".$member->last_name}}</h1>
-                                            <p class="card-text">{{$member->email}}</p>
+                                            <p class="card-text" style="font-weight : 600; color:blue; font-size : 20px"><?php echo e($member->first_name." ".$member->last_name); ?></h1>
+                                            <p class="card-text"><?php echo e($member->email); ?></p>
                                             </div>
                                         </div>
                                     </div>
-                                @endforeach
-                            @endif
+                                <?php endforeach; $__env->popLoop(); $loop = $__env->getLastLoop(); ?>
+                            <?php endif; ?>
                         </div>
                     </div>
                 </div>
             </div>
           </div>
 
- @include('/partials/footer')
+ <?php echo $__env->make('/partials/footer', \Illuminate\Support\Arr::except(get_defined_vars(), ['__data', '__path']))->render(); ?>
+<?php /**PATH C:\xampp\htdocs\vesitevents\resources\views/Society/society.blade.php ENDPATH**/ ?>
