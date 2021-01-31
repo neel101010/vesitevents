@@ -1,0 +1,242 @@
+body{
+	font-family: 'Montserrat', sans-serif;
+}
+
+#my-navbar{
+	padding: 6px 3.5%;
+}
+
+.my-login-button {
+	padding: 7px 26px !important;
+    font-size: 14px;
+    font-weight: 700;
+    color: white !important;
+    border-radius: 40px;
+    border: none;
+    box-shadow: 0 4px 10px 8px rgba(0, 0, 0, 0.05), 0 6px 20px 2px rgba(0, 0, 0, 0.04);
+}
+
+#login-li{
+	margin-right : 15px;
+}
+
+#VES_logo{
+	width : 36px;
+}
+
+.navbar-brand{
+	font-size: 18px;
+    font-weight: 600;
+}
+
+#vesit-logo{
+	margin-left : 3px;
+	font-family: 'Sriracha', cursive;
+	font-size : 20px;
+}
+
+.my-society-content{
+	margin : 20px 25% 40px;
+}
+
+.my-all-socierty-div .my-society-content img{
+	width: 143px;
+	height : 140px;
+}
+
+.ISA-society h4, .ISTE-society h4 , .IEEE-society h4 , .CSI-society h4{
+	margin : 0;
+	font-size : 18px;
+	font-weight : 600;
+	text-align : center;
+}
+
+.my-society-content .col-6{
+	padding-top:  10px;
+	padding-bottom : 10px;
+}
+
+.my-society-content .col-6:hover{
+	background: #8080801a;
+	cursor: pointer; 
+}
+
+
+.my-ongoing-title{
+	margin-left: 4%;
+	margin-right : 4%;
+	font-size: 18px;
+	font-weight: 600;
+	margin-bottom: -15px;
+}
+
+.MY-on-going-evenets{
+	padding :10px 4%;
+}
+
+.MY-on-going-evenets .row .col-12{
+   padding: 15px;
+}
+
+.MY-on-going-evenets .Each-event{
+	border : 1px solid black;
+	padding : 10px;
+}
+
+.Each-event .Each-event-society-img img{
+	width : 100px;
+	height : 100px;
+}
+
+.Each-event .Each-event-img{
+	margin-left : 10px;
+}
+
+.Each-event .Each-event-img img{
+	width : 150px;
+	height : 100px;
+}
+
+.Each-event .Each-event-content .main-event-title{
+	margin : 0px;
+	font-weight : 600;
+	color : blue;
+	font-size :18px;
+}
+
+.Each-event .Each-event-content .main-event-desc{
+	margin : 0px;
+	font-size :14px;
+	font-weight : 500;
+}
+
+.Each-event .Each-event-content .main-event-guests span{
+	  font-weight : 600;
+	  color : blue;
+}
+
+.Each-event .Each-event-content .main-event-guests{
+	 font-size : 14px;
+	 font-weight : 500;
+	 margin : 0;
+}
+
+.Each-event .Each-event-content .main-event-date-time{
+	 font-size : 15px;
+	 font-weight : 600;
+	 margin : 0;
+}
+
+@media (max-width: 991.98px) { 
+   .my-society-content{
+		margin-left: 10% !important;	
+		margin-right : 10% !important; 
+   }
+ }
+
+
+/**************
+login page css
+***************/
+
+.our-login-page-content {
+    padding-top: 60px;
+}
+
+#login-container {
+    width: 670px;
+    padding: 0px;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    background: #ffffff8a;
+    box-shadow: 0 4px 10px 8px rgba(0, 0, 0, 0.05), 0 6px 20px 2px rgba(0, 0, 0, 0.04);
+    border-radius: 4px;
+    margin-bottom: 40px;
+    transition: all 0.5s ease;
+}
+
+.login-page-contant {
+    padding: 2rem 2.5rem;
+    transition: all 0.5s ease;
+}
+
+.new-h1 {
+    color: #1818e3;
+    margin-bottom: 22px;
+}
+
+.label {
+    margin-bottom: 1px;
+    font-weight: 500;
+    color: #2190c3;
+}
+
+.form-group input {
+    font-size: 14px;
+    font-weight: 500;
+}
+
+#forgotbuttonlink {
+    color: red;
+}
+
+#forgotpassword{
+	margin-top: 10px;
+}
+
+/*********************
+specific-society-page
+**********************/
+
+.socirty-intro-div{
+	padding : 25px 4%;
+}
+
+.socirty-intro-div .society-intro-main-div{
+	position : relative;
+	border: 1px solid #b6b6b6;
+}
+
+.socirty-intro-div .society-intro-main-div .society-background-img{
+	width : 100%;
+	height : 160px;
+}
+
+.socirty-intro-div .society-intro-main-div .society-background-img img{
+	width : 100%;
+	height : 100%;
+	object-fit: cover;
+}
+
+.socirty-intro-div .society-intro-main-div .socirty-logo-session{
+	position : absolute;
+	width : 200px;
+	top : 115px;
+	left : 20px;
+}
+
+.socirty-intro-div .society-intro-main-div .socirty-logo-session img{
+	width : 100px;
+}
+
+.socirty-description-session{
+	margin : 58px 20px 20px;
+}
+
+.socirty-description-session h4{
+	font-weight : 600;
+	font-size :22px;
+}
+
+.socirty-description-session .society-page-description{
+	font-size : 15px;
+	margin : 0px;
+}
+
+.socirty-description-session .socirty-total-employees{
+	margin-top :5px;
+	margin-bottom : 5px;
+	font-weight : 500;
+	font-size : 16px;
+}

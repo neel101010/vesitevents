@@ -1,0 +1,217 @@
+/*********************
+specific-society-page
+**********************/
+.dropdown-item:hover{
+	background : #62626287;
+	
+}
+
+.navlink-header-text{
+	font-weight : 600;
+}
+
+.dropdown-item{
+	color : #6b6b6b;
+	font-size: 19px;
+    font-weight: 600;
+    padding: 7px 26px;
+}
+
+
+.socirty-intro-div{
+	padding : 25px 4%;
+}
+
+.socirty-intro-div .society-intro-main-div{
+	position : relative;
+	border: 1px solid #b6b6b6;
+}
+
+.socirty-intro-div .society-intro-main-div .society-background-img{
+	width : 100%;
+	height : 160px;
+}
+
+.socirty-intro-div .society-intro-main-div .society-background-img img{
+	width : 100%;
+	height : 100%;
+	object-fit: cover;
+}
+
+.socirty-intro-div .society-intro-main-div .socirty-logo-session{
+	position : absolute;
+	width : 200px;
+	top : 115px;
+	left : 20px;
+}
+
+.socirty-intro-div .society-intro-main-div .socirty-logo-session img{
+	width : 100px;
+}
+
+.socirty-description-session{
+	margin : 58px 20px 20px;
+}
+
+.socirty-description-session h4{
+	font-weight : 600;
+	font-size :22px;
+}
+
+.socirty-description-session .society-page-description{
+	font-size : 15px;
+	margin : 0px;
+}
+
+.socirty-description-session .socirty-total-employees{
+	margin-top :5px;
+	margin-bottom : 5px;
+	font-weight : 500;
+	font-size : 16px;
+}
+
+.my-ongoing-title-society{
+	margin-top : 10px;
+	font-size: 24px;
+	font-weight: 600;
+	margin-bottom: -20px;
+}
+
+.each-society-information{
+	margin-top : 50px;
+	text-align : center;
+}
+
+.each-society-information .society-details-society-page h4{
+	font-size: 36px;
+    font-weight: 600;
+}
+
+.each-society-information .society-details-society-page p{
+	font-weight : 500;
+	font-size : 16px;
+	margin-bottom : 6px;
+} 
+
+.each-society-information .society-details-society-page button{
+	width: 160px;
+    background: #c7c7c7b5;
+    border: none;
+    font-weight: 600;
+    padding: 10px;
+}
+
+.each-society-information .society-details-society-page i{
+	margin-right : 3px;
+}
+
+.society-nav-session  {
+	margin: 50px 101px 10px;
+}
+
+.all-event-details-tab .row .col-3 .nav-pills{
+	margin-left: 50px;
+}
+
+.all-event-details-tab .row .col-3 a{
+    font-weight: 500;
+    border: none;
+    border-radius: 0;
+    padding: 10px 20px;
+}
+
+.all-event-details-tab .event-div-session{
+	margin : 0px 38px;
+}
+
+.all-event-details-tab .event-details .event-detail-title{
+	font-weight: 500;
+    color: #3535ff;
+    font-size: 32px;
+    margin-bottom: 0px;
+}
+
+.all-event-details-tab .event-details .each-event-card{
+	border: 1px solid black;
+	border-radius: 5px;
+	margin-top : 5px;
+	margin-bottom : 5px;
+}
+
+.all-event-details-tab .event-details .each-event-card img{
+	width: 100%;
+    height: 151px;
+    object-fit: cover;
+}
+
+.all-event-details-tab .event-details .each-event-card .event-text-details{
+	margin : 13px 13px 15px 13px;
+}
+
+.all-event-details-tab .event-details .each-event-card .event-text-details .event-title{
+	font-weight: 600;
+    font-size: 19px;
+}
+
+.all-event-details-tab .event-details .each-event-card .event-text-details .date-and-time{
+	margin-bottom : 5px;
+}
+
+.all-event-details-tab .event-details .each-event-card .event-text-details .date-and-time span{
+	font-size: 14px;
+    font-weight: 600;
+    margin-right: 16px;
+}
+
+.all-event-details-tab .event-details .each-event-card .event-text-details .date-and-time span i{
+	color: blue;
+    margin-right: 3px;
+}
+
+.all-event-details-tab .event-details .each-event-card .event-text-details a{
+	font-size: 13px;
+    padding-top: 8px;
+    width: 124px;
+    height: 34px;
+    font-weight: 600;
+    color: white !important;
+    border-radius: 33px;
+    border: none;
+	box-shadow: 0 4px 10px 8px rgba(0, 0, 0, 0.05), 0 6px 20px 2px rgba(0, 0, 0, 0.04);
+}
+
+.All-Members-details .all-member-header{
+	margin-top : 20px;
+	margin-bottom : 20px;
+}
+
+#all-memeber-session{
+	margin-top : 30px;
+	margin-bottom : 15px;
+}
+
+.All-Members-details p{
+	font-weight : 600;
+	margin-bottom : 0px;
+}
+
+.society-nav-session .nav-item a{
+	border: none;
+    border-radius: 0;
+}
+
+.doeshavesponsor{
+	margin-bottom : 20px;
+}
+
+.doeshavesponsor p{
+	font-weight : 600;
+	font-size :16px;
+	margin-bottom :0px;
+}
+
+.doeshavesponsor label , .our-add-sponsor-form label {
+	font-weight : 500;
+	color: blue;
+	margin-bottom : 4px;
+}

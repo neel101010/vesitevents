@@ -1,0 +1,129 @@
+body { 
+    margin-bottom : 40px;
+}
+
+.each-event-main-div{
+    margin: 20px 3.5%;
+    padding: 1%;
+}
+
+.each-event-main-div-session{
+    height : 330px;
+    padding: 2.5%;
+    border: 1px solid #007bff;
+    border-radius: 6px;
+}
+
+.each-event-main-div .each-event-main-div-session .event-name{
+    font-size: 34px;
+    font-weight: 500;
+    color: #245bd8;
+}
+
+.each-event-main-div .each-event-main-div-session .event-guest{
+    margin-bottom: 8px;
+}
+
+.each-event-main-div .each-event-main-div-session .event-guest span{
+    font-weight: 600;
+    color: blue;
+    margin-right: 5px;
+    margin-bottom: 0px;
+}
+
+.each-event-main-div .each-event-main-div-session .event-date-time span{
+    margin-right: 25px;
+    font-weight: 500;
+}
+
+.each-event-main-div .each-event-main-div-session .event-date-time span i{
+    color: blue;
+    margin: 3px;
+}
+
+.each-event-main-div .each-event-main-div-session .event-orgnizor{
+    font-weight: 600;
+}
+
+.each-event-main-div .each-event-main-div-session .event-orgnizor span{
+    color: #44436d;
+    text-decoration: underline;
+}
+
+
+.each-event-main-div .all-registrations {
+    padding: 7%;
+    height : 330px;
+    border: 1px solid #007bff;
+    border-radius: 6px;
+    text-align: center;
+}
+
+.each-event-main-div .all-registrations h5{
+    font-weight: 600;
+    font-size: 24px;
+}
+
+.each-event-main-div .all-registrations .total-reg-today img{
+    width : 100px;
+}
+
+.each-event-main-div .all-registrations .total-reg-today p{
+    font-weight: 500;
+    font-size: 18px;
+}
+
+.each-event-main-div .all-registrations .class-reg-details div{
+    border: 1px solid #007bff;
+    padding: 10px 22px;
+    border-radius: 5px;
+    margin-right: 10px;
+}
+
+.each-event-main-div .all-registrations .class-reg-details div span{
+    font-weight: 600;
+}
+
+.main-title-full-detail{
+    font-weight: 600;
+    margin-top : 50px;
+    margin-bottom : 20px;
+}
+
+.main-title-event-guest{
+    font-weight: 600;
+    margin-top : 50px;
+    margin-bottom : 0px;
+}
+
+.guest-session .guest-card{
+    margin: 20px 26px;
+    border: 1px solid black;
+} 
+
+.guest-session .guest-card .guest-img img{
+    width : 255px;
+    height : 255px;
+    object-fit: cover;
+}
+
+.guest-session .guest-card .guest-detail{
+    padding : 10px;
+}
+
+.guest-session .guest-card .guest-detail .guest-name{
+    font-size: 22px;
+    font-weight: 500;
+}
+
+.guest-session .guest-card .guest-detail .guest-division-seesion{
+    font-weight : 500;
+    font-size : 16px;
+    margin-bottom : 3px;
+}
+
+#github-img{
+    width: 250px;
+    height: 250px;
+    object-fit: cover;
+}

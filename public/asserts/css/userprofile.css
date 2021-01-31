@@ -1,0 +1,87 @@
+.user-profile-details{
+    border: 1px solid black;
+    padding: 32px;
+    margin-top: 32px;
+}
+
+.user-profile-details .row .col-3 .nav-pills a{
+    border: none;
+    border-radius: 0;
+    font-weight: 600;
+    padding: 12px;
+    padding-left: 25px;
+} 
+
+.user-profile-details .row .col-9 .tab-content .personal-details .personal-detail-title , .user-profile-details .row .col-9 .tab-content .class-details .class-detail-title , 
+.user-profile-details .row .col-9 .tab-content .society-details .society-detail-title , .user-profile-details .row .col-9 .tab-content .event-details .event-detail-title{
+    font-weight: 500;
+    color: #3535ff;
+    font-size: 32px;
+    margin-bottom: 30px;
+}
+
+.user-profile-details .row .col-9 .tab-content .personal-details label , .user-profile-details .row .col-9 .tab-content .class-details label ,
+.user-profile-details .row .col-9 .tab-content .society-details label{
+    Font-weight : 600;
+    font-size : 16px;
+}
+
+.user-profile-details .row .col-9 .tab-content .personal-details input , .user-profile-details .row .col-9 .tab-content .class-details input,
+.user-profile-details .row .col-9 .tab-content .society-details input{
+    padding: 20px 10px;
+    font-size: 15px;
+    color: rebeccapurple;
+    border-radius: 0;
+    border-color: #aeaeae;
+}
+
+.user-profile-details .row .col-9 .tab-content button {  
+    border: none;
+    border-radius: 0;
+    margin-top: 18px;
+    padding: 9px 20px;
+    font-weight: 600;
+    font-size: 16px;
+}
+
+.user-profile-details .row .col-9 .tab-content .event-details .all-event-cards{
+    padding : 10px;
+}
+
+.user-profile-details .row .col-9 .tab-content .event-details .each-event-card{
+    border-radius: 2px;
+    border: 1px solid #a0a0a0;
+    padding: 16px;
+}
+
+.user-profile-details .row .col-9 .tab-content .event-details .each-event-card .event-title{
+    color : blue;
+    font-weight : 500;
+    margin-bottom : 10px;
+    font-size : 22px;
+}
+
+.user-profile-details .row .col-9 .tab-content .event-details .each-event-card .date-and-time{
+    margin-bottom : 0px;
+}
+
+.user-profile-details .row .col-9 .tab-content .event-details .each-event-card .date-and-time span{
+    margin-right: 8px;
+    margin-top: 5px;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.user-profile-details .row .col-9 .tab-content .event-details .each-event-card .date-and-time span i{
+   color : blue;
+   margin-right :1px;
+}
+
+.user-profile-details .row .col-9 .tab-content .event-details .each-event-card a {
+    margin-top: 8px;
+    font-size: 13px;
+    font-weight: 600;
+    color: black;
+    border: none;
+    margin-bottom: 0;
+}
