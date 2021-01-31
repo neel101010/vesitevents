@@ -144,7 +144,7 @@
                         <div class="col-12 col-md-4">
                             <div class="each-event-container">
                                 <div class="img-session">
-                                    <img src="{{url("storage/event_images/".$upcoming_events[$i]->profile_image )}}" alt="event-img">
+                                    <img src="{{url("/event_images/".$upcoming_events[$i]->profile_image )}}" alt="event-img">
                                 </div>
                                 <div class="content-session">
                                     <div class="upper-content d-flex flex-column">
