@@ -13,13 +13,13 @@
             <div class="col-md-6">
                 <div class="home-img-session d-flex justify-content-center align-items-center">
                     <div class="home-ad-event-pic">
-                        <img src="{{url("/common/eventpic3.png")}}" alt="Event-pic">
+                        <img src="{{url("/asserts/eventpic3.png")}}" alt="Event-pic">
                     </div>
                     <div class="home-ad-left-right-arrow">
-                        <img src="{{url("/common/left-right-arrow.jpg")}}" alt="Left-right-arrow">
+                        <img src="{{url("/asserts/left-right-arrow.jpg")}}" alt="Left-right-arrow">
                     </div>
                     <div class="home-ad-ves_logo">
-                        <img src="{{url("/common/VES_logo.png")}}" alt="VES-logo">
+                        <img src="{{url("/asserts/VES_logo.png")}}" alt="VES-logo">
                     </div>
                 </div>
             </div>
@@ -37,7 +37,7 @@
             <div class="col-6 col-md-3 d-flex justify-content-center">
                 <a href="{{url('society',$society->name)}}">
                     <div class="CSI-society d-flex flex-column">
-                        <img src="{{url("/common/$society->image ")}}">
+                        <img src="{{url("/asserts/$society->image ")}}">
                         <h4>{{$society->name}}</h4>
                     </div>
                 </a>
