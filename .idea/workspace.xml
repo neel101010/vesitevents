@@ -25,49 +25,52 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="08a84a7a-f010-49eb-a3ed-a424c1d6442a" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/public/asserts/common/1.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/asserts/normal/common/1.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/asserts/common/2.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/asserts/normal/common/2.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/asserts/common/3.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/asserts/normal/common/3.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/asserts/common/4.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/asserts/normal/common/4.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/asserts/common/Eventscards.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/asserts/normal/common/Eventscards.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/asserts/common/Untitled.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/asserts/normal/common/Untitled.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/asserts/common/User-register.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/asserts/normal/common/User-register.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/asserts/common/VES_logo.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/asserts/normal/common/VES_logo.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/asserts/common/bell-icon.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/asserts/normal/common/bell-icon.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/asserts/common/csi_logo.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/asserts/normal/common/csi_logo.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/asserts/common/download.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/asserts/normal/common/download.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/asserts/common/event-pic2.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/asserts/normal/common/event-pic2.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/asserts/common/event.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/asserts/normal/common/event.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/asserts/common/event_img.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/asserts/normal/common/event_img.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/asserts/common/eventpic3.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/asserts/normal/common/eventpic3.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/asserts/common/github.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/asserts/normal/common/github.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/asserts/common/ieee_logo.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/asserts/normal/common/ieee_logo.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/asserts/common/images.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/asserts/normal/common/images.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/asserts/common/images.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/asserts/normal/common/images.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/asserts/common/isa_logo.gif" beforeDir="false" afterPath="$PROJECT_DIR$/public/asserts/normal/common/isa_logo.gif" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/asserts/common/iste_logo.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/asserts/normal/common/iste_logo.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/asserts/common/left-right-arrow.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/asserts/normal/common/left-right-arrow.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/asserts/common/p1.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/asserts/normal/common/p1.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/asserts/common/p2.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/asserts/normal/common/p2.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/asserts/common/p3.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/asserts/normal/common/p3.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/asserts/common/prof-2.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/asserts/normal/common/prof-2.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/asserts/common/prof-2.webp" beforeDir="false" afterPath="$PROJECT_DIR$/public/asserts/normal/common/prof-2.webp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/asserts/common/prof-img.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/asserts/normal/common/prof-img.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/asserts/common/registrations.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/asserts/normal/common/registrations.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/asserts/common/society-background.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/asserts/normal/common/society-background.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/asserts/common/user-img1.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/asserts/normal/common/user-img1.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/asserts/common/useradd2.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/asserts/normal/common/useradd2.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/asserts/common/useraddicon.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/asserts/normal/common/useraddicon.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/asserts/common/userprofileimg.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/asserts/normal/common/userprofileimg.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/asserts/common/w1.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/asserts/normal/common/w1.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/asserts/company_images/1607446876WhatsApp Image 2020-12-03 at 7.41.18 PM.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/public/company_images/1607446876WhatsApp Image 2020-12-03 at 7.41.18 PM.jpeg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/asserts/company_images/1607447235Capture2.PNG" beforeDir="false" afterPath="$PROJECT_DIR$/public/company_images/1607447235Capture2.PNG" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/asserts/company_images/1607488459WhatsApp Image 2020-12-03 at 7.42.34 PM (3).jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/public/company_images/1607488459WhatsApp Image 2020-12-03 at 7.42.34 PM (3).jpeg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/asserts/company_images/1607489530WhatsApp Image 2020-12-04 at 4.09.38 PM (4).jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/public/company_images/1607489530WhatsApp Image 2020-12-04 at 4.09.38 PM (4).jpeg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/asserts/company_images/1607490790free-profile-photo-whatsapp-4.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/company_images/1607490790free-profile-photo-whatsapp-4.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/asserts/company_images/1607494877free-profile-photo-whatsapp-4.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/company_images/1607494877free-profile-photo-whatsapp-4.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/asserts/company_images/1607600397Capture2.PNG" beforeDir="false" afterPath="$PROJECT_DIR$/public/company_images/1607600397Capture2.PNG" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/asserts/company_images/160952076322.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/company_images/160952076322.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/company_images/1607446876WhatsApp Image 2020-12-03 at 7.41.18 PM.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/company_images/1607447235Capture2.PNG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/company_images/1607488459WhatsApp Image 2020-12-03 at 7.42.34 PM (3).jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/company_images/1607489530WhatsApp Image 2020-12-04 at 4.09.38 PM (4).jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/company_images/1607490790free-profile-photo-whatsapp-4.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/company_images/1607494877free-profile-photo-whatsapp-4.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/company_images/1607600397Capture2.PNG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/company_images/160952076322.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/css/addevent.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/css/eachevent.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/css/index.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/css/login.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/css/main-page.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/css/signup.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/css/society.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/css/userprofile.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/event_images/1607446858WhatsApp Image 2020-12-03 at 7.41.18 PM (2).jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/event_images/1607447037Capture.PNG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/event_images/1607447051Capture.PNG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/event_images/1607488414WhatsApp Image 2020-12-03 at 7.41.18 PM (2).jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/event_images/1607489482WhatsApp Image 2020-12-03 at 7.41.18 PM.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/event_images/1607490720free-profile-photo-whatsapp-4.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/event_images/1607494848free-profile-photo-whatsapp-4.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/event_images/1607600378Capture2.PNG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/event_images/16095206503.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/VES_logo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/csi_logo.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/download-free-png-stockvader-predicted-adig-user-profile-icon-user-profile-png-880_880.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/event_img.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/ieee_logo.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/isa_logo.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/iste_logo.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/society-background.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/profile_images/1607446887Capture.PNG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/profile_images/1607487663free-profile-photo-whatsapp-4.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/profile_images/1607487771free-profile-photo-whatsapp-4.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/profile_images/1607488328free-profile-photo-whatsapp-4.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/profile_images/1607489039free-profile-photo-whatsapp-4.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/profile_images/1607490305free-profile-photo-whatsapp-4.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/profile_images/1607490564free-profile-photo-whatsapp-4.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/profile_images/1607494005free-profile-photo-whatsapp-4.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/profile_images/1607494422free-profile-photo-whatsapp-4.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/profile_images/1607494505free-profile-photo-whatsapp-4.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/profile_images/1607600285Capture.PNG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/profile_images/1609520430image.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/profile_images/1609520564image.png" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -212,16 +215,18 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/public" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\xampp\htdocs\vesitevents\public\asserts" />
+      <recent name="C:\xampp\htdocs\vesitevents\public\storage" />
       <recent name="C:\xampp\htdocs\vesitevents\public\normal" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\xampp\htdocs\vesitevents\public" />
       <recent name="C:\xampp\htdocs\vesitevents" />
     </key>
   </component>
@@ -244,7 +249,7 @@
       <workItem from="1611656503190" duration="8472000" />
       <workItem from="1611678460741" duration="294000" />
       <workItem from="1611678800268" duration="123000" />
-      <workItem from="1612106024769" duration="2623000" />
+      <workItem from="1612106024769" duration="2999000" />
     </task>
     <servers />
   </component>
