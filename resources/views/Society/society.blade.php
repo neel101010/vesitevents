@@ -4,7 +4,7 @@
         <div class="each-society-information d-flex justify-content-center">
             <div class="society-details-society-page d-flex flex-column">
                 <div class="society-img-session">
-                    <img src="{{url("/common/$society->image")}}" style="width:130px; height:130px; object-fit:cover;">
+                    <img src="{{url("/asserts/common/$society->image")}}" style="width:130px; height:130px; object-fit:cover;">
                 </div>
                 <h4>{{$society->name}} Society</h4>
                 <p> {{$society->description}} </p>
