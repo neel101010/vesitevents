@@ -126,7 +126,7 @@
                                                     <div class="col-3">
                                                         <div class="each-event-card d-flex flex-column">
                                                                     <div class="today-event-img-session">
-                                                                        <img width="150px" src="{{url("/event_images/$past_event->profile_image")}}" alt="">
+                                                                        <img width="150px" src="{{url("storage/event_images/$past_event->profile_image")}}" alt="">
                                                                     </div>
                                                                     <div class="event-text-details">
                                                                         <p class="event-title">{{$past_event->name}}</p>
@@ -171,7 +171,7 @@
                         @else
                             <div class="card" style="width: 18rem;">
                                 @if($head)
-                                    <img src="{{url("/profile_images/$member->profile_image")}}" class="card-img-top" alt="..." style="width : 100%; height : 250px; object-fit:cover">
+                                    <img src="{{url("storage/profile_images/$member->profile_image")}}" class="card-img-top" alt="..." style="width : 100%; height : 250px; object-fit:cover">
                                 @endif
                                     <div class="card-body">
                                     @if($head)
@@ -214,7 +214,7 @@
                                     @endphp
                                     <div class="col-4">
                                         <div class="card" style="width: 18rem;">
-                                            <img src="{{url("/profile_images/$member->profile_image")}}" class="card-img-top" alt="..." style="width : 100%; height : 250px; object-fit:cover">
+                                            <img src="{{url("storage/profile_images/$member->profile_image")}}" class="card-img-top" alt="..." style="width : 100%; height : 250px; object-fit:cover">
                                             <div class="card-body">
                                             <p class="card-text" style="font-weight : 600; color:blue; font-size : 20px">{{$member->first_name." ".$member->last_name}}</h1>
                                             <p class="card-text">{{$member->email}}</p>

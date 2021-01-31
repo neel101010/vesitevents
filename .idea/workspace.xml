@@ -25,58 +25,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="08a84a7a-f010-49eb-a3ed-a424c1d6442a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/public/asserts_tmp/prof-img.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/asserts_tmp/registrations.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/asserts_tmp/society-background.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/asserts_tmp/user-img1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/asserts_tmp/useradd2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/asserts_tmp/useraddicon.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/asserts_tmp/userprofileimg.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/asserts/left-right-arrow.jpg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Providers/AppServiceProvider.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Providers/AppServiceProvider.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/asserts/1.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/asserts_tmp/1.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/asserts/2.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/asserts_tmp/2.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/asserts/3.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/asserts_tmp/3.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/asserts/4.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/asserts_tmp/4.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/asserts/Eventscards.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/asserts_tmp/Eventscards.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/asserts/Untitled.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/asserts_tmp/Untitled.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/asserts/User-register.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/asserts_tmp/User-register.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/asserts/VES_logo.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/asserts/VES_logo.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/asserts/bell-icon.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/asserts_tmp/VES_logo.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/asserts/csi_logo.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/asserts/csi_logo.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/asserts/download.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/asserts_tmp/bell-icon.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/asserts/event-pic2.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/asserts_tmp/csi_logo.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/asserts/event.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/asserts_tmp/event.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/asserts/event_img.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/asserts/event_img.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/asserts/eventpic3.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/asserts_tmp/download.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/asserts/github.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/asserts_tmp/github.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/asserts/ieee_logo.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/asserts/ieee_logo.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/asserts/images.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/asserts_tmp/event-pic2.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/asserts/images.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/asserts_tmp/event_img.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/asserts/isa_logo.gif" beforeDir="false" afterPath="$PROJECT_DIR$/public/asserts/isa_logo.gif" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/asserts/iste_logo.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/asserts/iste_logo.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/asserts/left-right-arrow.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/asserts_tmp/eventpic3.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/asserts/p1.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/asserts_tmp/p1.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/asserts/p2.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/asserts_tmp/p2.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/asserts/p3.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/asserts_tmp/p3.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/asserts/prof-2.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/asserts_tmp/ieee_logo.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/asserts/prof-2.webp" beforeDir="false" afterPath="$PROJECT_DIR$/public/asserts_tmp/images.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/asserts/prof-img.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/asserts_tmp/images.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/asserts/registrations.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/asserts_tmp/isa_logo.gif" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/asserts/society-background.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/asserts/society-background.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/asserts/user-img1.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/asserts_tmp/iste_logo.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/asserts/useradd2.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/asserts_tmp/left-right-arrow.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/asserts/useraddicon.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/asserts_tmp/prof-2.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/asserts/userprofileimg.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/asserts_tmp/prof-2.webp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/asserts/w1.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/asserts_tmp/w1.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/VES_logo.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/csi_logo.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/download-free-png-stockvader-predicted-adig-user-profile-icon-user-profile-png-880_880.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/asserts/download-free-png-stockvader-predicted-adig-user-profile-icon-user-profile-png-880_880.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/event_img.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/ieee_logo.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/isa_logo.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/iste_logo.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/society-background.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/Society/society.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/Society/society.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/views/index.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/index.blade.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -228,10 +179,10 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\xampp\htdocs\vesitevents\public\storage" />
       <recent name="C:\xampp\htdocs\vesitevents\public" />
       <recent name="C:\xampp\htdocs\vesitevents\public\asserts_tmp" />
       <recent name="C:\xampp\htdocs\vesitevents\public\asserts" />
-      <recent name="C:\xampp\htdocs\vesitevents\public\storage" />
       <recent name="C:\xampp\htdocs\vesitevents\public\normal" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
@@ -259,7 +210,7 @@
       <workItem from="1611656503190" duration="8472000" />
       <workItem from="1611678460741" duration="294000" />
       <workItem from="1611678800268" duration="123000" />
-      <workItem from="1612106024769" duration="4856000" />
+      <workItem from="1612106024769" duration="5568000" />
     </task>
     <servers />
   </component>
@@ -290,5 +241,16 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="303" y="1" key="search.everywhere.popup/0.0.1280.680@0.0.1280.680" timestamp="1611657326430" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/resources/views/User/classAndSocietyDetailsForm.blade.php</url>
+          <line>14</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
