@@ -14,7 +14,7 @@
 							<p>Add Guests</p>
 							<div class="guest-img-div">
 								<button type="button" class="btn btn-primary" data-toggle="modal" data-target="#guest-select-modal">
-									<img src="{{url("/asserts/useradd2.png")}}" alt="user-image">
+									<img src="{{url("/common/useradd2.png")}}" alt="user-image">
 								</button>
 							</div>
 						</div>

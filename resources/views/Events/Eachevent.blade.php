@@ -76,7 +76,7 @@
 					   <div class="total-reg-today d-flex justify-content-center">
 							<div class="d-flex flex-column">
 								<div>
-									<img style="width : 100px;" src="{{ url('/asserts/registrations.jpg') }}" alt="user-profile">
+									<img style="width : 100px;" src="{{ url('/common/registrations.jpg') }}" alt="user-profile">
                                 </div>
                                 @php
                                 $registration = \App\Models\Register::where('event_id',$event->id)->get();
@@ -129,7 +129,7 @@
 				@endphp
 						<div class="guest-card d-flex flex-column">
 							<div class="guest-img">
-								<img src="{{ url('/asserts/userprofileimg.png') }}" alt="">
+								<img src="{{ url('/common/userprofileimg.png') }}" alt="">
 							</div>
 							<div class="guest-detail">
 								<p class="guest-name">{{$guest_detail->name}}</p>
